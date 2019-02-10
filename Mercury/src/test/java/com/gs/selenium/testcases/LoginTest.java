@@ -32,7 +32,7 @@ public class LoginTest extends TestBase{
 		
 		new LoginPage().login(userName,password);
 		
-		//Assert.assertEquals(6,7);
+		Assert.assertEquals(6,7);
 	
 	}
 	
