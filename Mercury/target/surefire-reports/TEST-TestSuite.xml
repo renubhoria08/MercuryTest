@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="1" name="TestSuite" time="15.344" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="TestSuite" time="12.382" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_91\jre\bin"/>
     <property name="java.vm.version" value="25.91-b15"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="D:\Workspace_Photon\Mercury"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Sujoy\git\MercuryTest\Mercury"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="Service Pack 1"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="D:\Workspace_Photon\Mercury"/>
+    <property name="user.dir" value="C:\Users\Sujoy\git\MercuryTest\Mercury"/>
     <property name="java.runtime.version" value="1.8.0_91-b15"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_91\jre\lib\endorsed"/>
@@ -29,7 +29,7 @@
     <property name="os.name" value="Windows 7"/>
     <property name="classworlds.conf" value="D:\apache-maven-3.5.0\bin\..\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_91\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.8.0_91/bin;C:\Program Files\Java\jdk1.8.0_91/bin;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_91\bin;C:\Program Files\Java\jre1.8.0_91\bin;C:\Program Files\Java\jdk1.8.0_91\bin;D:\apache-ant-1.9.7\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\apache-maven-3.5.0\bin;C:\Program Files (x86)\Skype\Phone\.;C:\Program Files\Java\jdk1.8.0_91\bin;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_91\bin;D:\apache-maven-3.5.0\bin;C:\Program Files\nodejs\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Sujoy\AppData\Roaming\npm;C:\Users\Sujoy\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_91\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.8.0_91/bin;C:\Program Files\Java\jdk1.8.0_91/bin;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_91\bin;C:\Program Files\Java\jre1.8.0_91\bin;C:\Program Files\Java\jdk1.8.0_91\bin;D:\apache-ant-1.9.7\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\apache-maven-3.5.0\bin;C:\Program Files (x86)\Skype\Phone\.;C:\Program Files\Java\jdk1.8.0_91\bin;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_91\bin;D:\apache-maven-3.5.0\bin;C:\Program Files\nodejs\;C:\Users\Sujoy\AppData\Roaming\npm;C:\Users\Sujoy\AppData\Local\Programs\Microsoft VS Code\bin;."/>
     <property name="maven.conf" value="D:\apache-maven-3.5.0\bin\../conf"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
@@ -63,28 +63,5 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.gs.selenium.testcases.LoginTest" name="login" time="15.344">
-    <failure message="expected [7] but found [6]" type="java.lang.AssertionError">java.lang.AssertionError: expected [7] but found [6]
-	at org.testng.Assert.fail(Assert.java:96)
-	at org.testng.Assert.failNotEquals(Assert.java:776)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-	at org.testng.Assert.assertEquals(Assert.java:118)
-	at org.testng.Assert.assertEquals(Assert.java:652)
-	at org.testng.Assert.assertEquals(Assert.java:662)
-	at com.gs.selenium.testcases.LoginTest.login(LoginTest.java:35)
-</failure>
-    <system-out>2019-02-09 21:32:54--INFO -baseutil.TestBase-main:Browser instance created
-2019-02-09 21:32:56--INFO -baseutil.TestBase-main:Browser Maximized
-2019-02-09 21:32:59--INFO -baseutil.TestBase-main:Application Launched
-2019-02-09 21:32:59--INFO -utility.SeleniumUtility-main:Value Entered successfully in UserName textbox
-2019-02-09 21:32:59--INFO -utility.SeleniumUtility-main:Value Entered successfully in Password textbox
-2019-02-09 21:33:04--INFO -utility.SeleniumUtility-main:Clicked successfully on Login Button
-</system-out>
-    <system-err>Starting ChromeDriver 2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1) on port 6392
-Only local connections are allowed.
-Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-Feb 09, 2019 9:32:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: OSS
-</system-err>
-  </testcase>
+  <testcase classname="com.gs.selenium.testcases.LoginTest" name="login" time="12.382"/>
 </testsuite>
